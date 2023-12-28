@@ -1,0 +1,91 @@
+.First-half-width{
+    width: 40%;
+    margin: 3%;
+    padding-left: 2%;
+    float: left;
+}
+.First-half-width img{
+    width: 100%;
+}
+.Headline{
+    font-size: 35px;
+}
+.headline-s{
+    color: yellow;
+}
+.more-details{
+    text-decoration: none; 
+    font-size: 20px;
+    color: aliceblue;
+    border-radius: 7px;
+    background-image: linear-gradient(90deg,lightpink, red);
+}
+body{ margin: 0;
+    font-family: "roboto" ;
+    background-color: rgba(255, 228, 196, 0.612);
+ }
+ .self-details{
+    box-shadow: 10px 10px 40px rgb(218, 214, 214);
+    text-align: justify;
+    padding: 4px;
+}
+    
+    .self-details-s{
+        color: rgb(141, 3, 3);
+    }
+    .self-details:hover{
+        font-size: larger;
+        color: crimson;
+    }
+    .top-banner{
+        background-image: url(/top-banner.png);
+        background-repeat: no-repeat;
+        height: 500px;
+        display: inline-block;
+    }
+    .more-details-2{
+        text-decoration: none;
+    font-size: 20px;
+    color: rgb(145, 196, 240);
+    border-radius: 7px;
+    background-image: linear-gradient(90deg,rgb(190, 235, 180), rgb(226, 251, 2));
+    }
+    .second-banner{
+        background-image: url(/second-bg.png);
+        background-repeat: no-repeat;
+        height: 500px;
+        background-position: right, bottom;
+        display: inline-block;
+
+    }
+    .last-width{width: 40%;
+        margin: 3%;
+        margin-top: 150px;
+        padding: 10px;
+        float: left;
+        border-radius: 5px;
+        box-shadow: 10px 10px 40px rgb(155, 150, 150);
+        text-align: justify;
+        border-left: 7px solid  ;
+        border-image: linear-gradient( lightpink, tomato);
+        border-image-slice: 1;
+        background-color:  rgb(255, 234, 208) ;
+    }
+    #last-width-1{
+        border-left: 7px solid  ;
+        border-image: linear-gradient( rgb(154, 188, 242), rgb(245, 3, 152));
+        border-image-slice: 1;
+    }
+    .third-banner{
+        background-image: url(/third-bg.png);
+        background-repeat: no-repeat;
+        height: 500px;
+        display: inline-block;
+    }
+    footer{
+        text-align: center;
+        height: 50px;
+        color: bisque;
+        background-color: rgba(88, 84, 84, 0.79);
+        background-image: linear-gradient(rgb(147, 138, 138), rgb(0, 0, 0));
+    }
