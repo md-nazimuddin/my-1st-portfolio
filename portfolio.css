@@ -1,57 +1,59 @@
-.First-half-width{
-    width: 40%;
-    margin: 3%;
-    padding-left: 2%;
-    float: left;
-}
-.First-half-width img{
-    width: 100%;
-}
-.Headline{
-    font-size: 35px;
-}
-.headline-s{
-    color: yellow;
-}
-.more-details{
-    text-decoration: none; 
-    font-size: 20px;
-    color: aliceblue;
-    border-radius: 7px;
-    background-image: linear-gradient(90deg,lightpink, red);
-}
-body{ margin: 0;
-    font-family: "roboto" ;
-    background-color: rgba(255, 228, 196, 0.612);
- }
- .self-details{
-    box-shadow: 10px 10px 40px rgb(218, 214, 214);
-    text-align: justify;
-    padding: 4px;
-}
+    body { margin: 0;
+        font-family: Poppins;
+        background-color: rgba(255, 228, 196, 0.612);
+    }
+    :root {
+    --main-color: rgb(255, 58, 121);
+    }
+    .First-half-width {
+        width: 40%;
+        margin: 3%;
+        padding-left: 2%;
+        float: left;
+    }
+    .First-half-width img {
+        width: 100%;
+    }
+    .Headline{
+        font-size: 35px;
+        font-weight: bolder;
+    }
+    .headline-s{
+        color: var(--main-color);
+    }
+    .more-details{
+        text-decoration: none; 
+        font-size: 16px;
+        color: rgb(255, 255, 255);
+        border-radius: 7px;
+        padding: .1rem;
+        background-image: linear-gradient(90deg,rgb(255, 58, 121), rgb(225, 142, 181));
+    }
+    
+    .self-details{
+        box-shadow: 10px 10px 40px rgb(218, 214, 214);
+        text-align: justify;
+        padding: 4px;
+    }
     
     .self-details-s{
-        color: rgb(141, 3, 3);
+        color: rgb(88, 141, 3);
     }
     .self-details:hover{
         font-size: larger;
-        color: crimson;
+        color: var(--main-color);
     }
     .top-banner{
-        background-image: url(/top-banner.png);
+        background-image: url(top-banner.png);
         background-repeat: no-repeat;
         height: 500px;
         display: inline-block;
     }
-    .more-details-2{
-        text-decoration: none;
-    font-size: 20px;
-    color: rgb(145, 196, 240);
-    border-radius: 7px;
-    background-image: linear-gradient(90deg,rgb(190, 235, 180), rgb(226, 251, 2));
+    .headline-s2 {
+        color: var(--main-color);
     }
     .second-banner{
-        background-image: url(/second-bg.png);
+        background-image: url(second-bg.png);
         background-repeat: no-repeat;
         height: 500px;
         background-position: right, bottom;
@@ -60,7 +62,7 @@ body{ margin: 0;
     }
     .last-width{width: 40%;
         margin: 3%;
-        margin-top: 150px;
+        /* margin-top: 50px; */
         padding: 10px;
         float: left;
         border-radius: 5px;
@@ -70,22 +72,48 @@ body{ margin: 0;
         border-image: linear-gradient( lightpink, tomato);
         border-image-slice: 1;
         background-color:  rgb(255, 234, 208) ;
+        
     }
     #last-width-1{
+        font-size: 14px;
         border-left: 7px solid  ;
         border-image: linear-gradient( rgb(154, 188, 242), rgb(245, 3, 152));
         border-image-slice: 1;
     }
     .third-banner{
-        background-image: url(/third-bg.png);
+        background-image: url(third-bg.png);
         background-repeat: no-repeat;
         height: 500px;
-        display: inline-block;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        
     }
     footer{
-        text-align: center;
-        height: 50px;
-        color: bisque;
-        background-color: rgba(88, 84, 84, 0.79);
-        background-image: linear-gradient(rgb(147, 138, 138), rgb(0, 0, 0));
+        display: flex;
+        color: aliceblue;
+        background-color: black;
     }
+    .footer-right {
+        width: 60%;
+        padding-top: .1rem;
+    }
+    .footer-logo {
+        color: aliceblue;
+        font-size: 1.9rem;
+        font-weight: 500;
+        padding: 5px 0;
+        margin: 0px 30px;
+        }
+    
+    /* .navbar a {
+        color: var(--text-color);
+        font-size: 1.1rem;
+        font-weight: 500;
+        padding: 5px 0;
+        margin: 0px 30px;
+        transition:all .50s ease;
+    }
+    .navbar a:hover {
+        color: var(--main-color); */
