@@ -44,7 +44,7 @@
         color: var(--main-color);
     }
     .top-banner{
-        background-image: url(top-banner.png);
+        background-image: url(images/top-banner.png);
         background-repeat: no-repeat;
         height: 500px;
         display: inline-block;
@@ -53,7 +53,7 @@
         color: var(--main-color);
     }
     .second-banner{
-        background-image: url(second-bg.png);
+        background-image: url(images/second-bg.png);
         background-repeat: no-repeat;
         height: 500px;
         background-position: right, bottom;
@@ -81,7 +81,7 @@
         border-image-slice: 1;
     }
     .third-banner{
-        background-image: url(third-bg.png);
+        background-image: url(images/third-bg.png);
         background-repeat: no-repeat;
         height: 500px;
         display: flex;
